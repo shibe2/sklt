@@ -236,7 +236,7 @@ func main() {
 		case time.Minute:
 			format = "2006-01-02 15:04"
 		case time.Hour:
-			format = "2006-01-02 15H"
+			format = "2006-01-02 15h"
 		case 24 * time.Hour:
 			format = "2006-01-02"
 		}
