@@ -6,6 +6,8 @@
 package main
 
 import (
+	"bufio"
+	"bytes"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -26,7 +28,7 @@ func usage(e bool) {
 	} else {
 		w = os.Stdout
 	}
-	fmt.Fprintln(w, "usage:", progName, "[-h] [-t interval] [-f format]")
+	fmt.Fprintln(w, "usage:", progName, "[-h] [-t interval] [-f format] [-x translation]")
 	fmt.Fprintln(w, "\t-h - print this message and exit")
 	fmt.Fprintln(w, "\t-t interval - time update interval; valid values are (case-insensitive):")
 	fmt.Fprintln(w, "\t\ts or second")
@@ -37,6 +39,11 @@ func usage(e bool) {
 	fmt.Fprintln(w, "\t\tthat is, how the time \"Mon Jan 2 15:04:05 -0700 MST 2006\" should be formatted")
 	fmt.Fprintln(w, "\t\tsee https://golang.org/pkg/time/#Time.Format")
 	fmt.Fprintln(w, "\t\texample: \"2006-01-02 15:04\" (year-month-day hour:minute)")
+	fmt.Fprintln(w, "\t-x translation - file name of layout name translation table")
+	fmt.Fprintln(w, "\t\tthe option can be specified multiple times, all files are read")
+	fmt.Fprintln(w, "\t\teach line in the file must have 2 layout names separated with tab character:")
+	fmt.Fprintln(w, "\t\t1. original layout name")
+	fmt.Fprintln(w, "\t\t2. displayed (translated) name")
 	if e {
 		os.Exit(1)
 	}
@@ -50,7 +57,64 @@ type monitor struct {
 	s                   net.Conn          // Sway IPC socket
 	ch                  chan string       // layout change notifications
 	kbds                map[string]kbdDev // indexed by device identifiers
+	trans               map[string]string
 	lastKbd, prevLayout string
+}
+
+var tab = []byte{'\t'}
+
+func (self *monitor) loadTranslations(fn string) error {
+	f, err := os.Open(fn)
+	if err != nil {
+		return err
+	}
+	defer func() {
+		if f != nil {
+			f.Close()
+		}
+	}()
+	s := bufio.NewScanner(f)
+	var ln int
+	for s.Scan() {
+		ln++
+		l1 := s.Bytes()
+		l2 := bytes.Split(l1, tab)
+		switch len(l2) {
+		case 0:
+			continue
+		case 1:
+			l2 = append(l2, nil)
+			fallthrough
+		case 2:
+			n := string(bytes.TrimSpace(l2[0]))
+			t := string(bytes.TrimSpace(l2[1]))
+			if len(n) == 0 {
+				if len(t) == 0 {
+					continue
+				}
+				break
+			}
+			if self.trans == nil {
+				self.trans = make(map[string]string)
+			}
+			if p := self.trans[n]; len(p) > 0 {
+				if len(t) > 0 && p != t {
+					fmt.Fprintf(os.Stderr, "duplicate translation for %q: %q and %q\n", n, p, t)
+				}
+				continue
+			}
+			self.trans[n] = t
+			continue
+		}
+		fmt.Fprintf(os.Stderr, "invalid translation entry in %s line %d: %s\n", fn, ln, l1)
+	}
+	err = s.Err()
+	if err != nil {
+		return err
+	}
+	err = f.Close()
+	f = nil
+	return err
 }
 
 // Delete a keyboard from the list.
@@ -80,6 +144,7 @@ func (self *monitor) del(id string) {
 
 // Set keyboard's layout in the list. If the layout has changed or the identifier is new, put the keyboard at the end of the list.
 func (self *monitor) set(id, l string) {
+	l = strings.TrimSpace(l)
 	if len(l) == 0 {
 		self.del(id)
 		return
@@ -165,6 +230,9 @@ func (self *monitor) watchLayouts() {
 			os.Exit(1)
 		}
 		nl := self.kbds[self.lastKbd].layout
+		if t, ok := self.trans[nl]; ok {
+			nl = t
+		}
 		if self.prevLayout == nl {
 			continue
 		}
@@ -201,7 +269,9 @@ func main() {
 		}
 	}
 	interval := time.Minute
+	m := monitor{ch: make(chan string)}
 	var format string
+	var err error
 	for i := 1; i < len(os.Args); i++ {
 		switch os.Args[i] {
 		case "-h", "--help":
@@ -224,6 +294,12 @@ func main() {
 			}
 		case "-f":
 			format = getArg(&i)
+		case "-x":
+			err = m.loadTranslations(getArg(&i))
+			if err != nil {
+				fmt.Fprintln(os.Stderr, "failed to load translations:", err)
+				os.Exit(1)
+			}
 		default:
 			fmt.Fprintln(os.Stderr, "unknown parameter:", os.Args[i])
 			usage(true)
@@ -244,8 +320,6 @@ func main() {
 	if interval > time.Hour {
 		interval = time.Hour
 	}
-	m := monitor{ch: make(chan string)}
-	var err error
 	m.s, err = Connect("")
 	if err != nil && err != ErrNoIPC {
 		fmt.Fprintln(os.Stderr, "failed to connect to Sway:", err)

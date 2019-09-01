@@ -42,3 +42,15 @@ To use a format that contains spaces in the Sway configuration file, either encl
     status_command sklt -f \"2006-01-02 15:04\"
     status_command sklt -f \'2006-01-02 15:04\'
     status_command sklt -f 2006-01-02\ 15:04
+
+### -x *translation*
+
+Translate layout names according to the table from the file *translation*.
+The file must be in TSV format (tab-separated values) with 2 columns:
+
+1. original layout name
+2. displayed (translated) name
+
+The option can be specified multiple times, in which case all files are read.
+
+An example table "layouts.tsv" is included, which translates from full layout names to layout codes (short names) in uppercase.

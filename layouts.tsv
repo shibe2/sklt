@@ -1,0 +1,547 @@
+Afghani	AF
+Akan	GH
+Albanian	AL
+Albanian (Plisi)	AL
+Amharic	ET
+Arabic	ARA
+Arabic (AZERTY)	ARA
+Arabic (AZERTY/digits)	ARA
+Arabic (Algeria)	DZ
+Arabic (Buckwalter)	ARA
+Arabic (Macintosh)	ARA
+Arabic (Morocco)	MA
+Arabic (Pakistan)	PK
+Arabic (QWERTY)	ARA
+Arabic (Syria)	SY
+Arabic (digits)	ARA
+Arabic (qwerty/digits)	ARA
+Armenian	AM
+Armenian (alt. eastern)	AM
+Armenian (alt. phonetic)	AM
+Armenian (eastern)	AM
+Armenian (phonetic)	AM
+Armenian (western)	AM
+Asturian (Spain, with bottom-dot H and bottom-dot L)	ES
+Avatime	GH
+Azerbaijani	AZ
+Azerbaijani (Cyrillic)	AZ
+Bambara	ML
+Bangla	BD
+Bangla (India)	IN
+Bangla (India, Baishakhi Inscript)	IN
+Bangla (India, Baishakhi)	IN
+Bangla (India, Bornona)	IN
+Bangla (India, Probhat)	IN
+Bangla (India, Uni Gitanjali)	IN
+Bangla (Probhat)	BD
+Bashkirian	RU
+Belarusian	BY
+Belarusian (Latin)	BY
+Belarusian (legacy)	BY
+Belgian	BE
+Belgian (Wang 724 AZERTY)	BE
+Belgian (alt. ISO)	BE
+Belgian (alt.)	BE
+Belgian (alt., Latin-9 only)	BE
+Belgian (alt., with Sun dead keys)	BE
+Belgian (no dead keys)	BE
+Belgian (with Sun dead keys)	BE
+Berber (Algeria, Latin)	DZ
+Berber (Algeria, Tifinagh)	DZ
+Berber (Morocco, Tifinagh alt. phonetic)	MA
+Berber (Morocco, Tifinagh alt.)	MA
+Berber (Morocco, Tifinagh extended phonetic)	MA
+Berber (Morocco, Tifinagh extended)	MA
+Berber (Morocco, Tifinagh phonetic)	MA
+Berber (Morocco, Tifinagh)	MA
+Bosnian	BA
+Bosnian (US, with Bosnian digraphs)	BA
+Bosnian (US, with Bosnian letters)	BA
+Bosnian (with Bosnian digraphs)	BA
+Bosnian (with guillemets)	BA
+Braille	BRAI
+Braille (left-handed inverted thumb)	BRAI
+Braille (left-handed)	BRAI
+Braille (right-handed inverted thumb)	BRAI
+Braille (right-handed)	BRAI
+Bulgarian	BG
+Bulgarian (new phonetic)	BG
+Bulgarian (traditional phonetic)	BG
+Burmese	MM
+Burmese Zawgyi	MM
+Cameroon Multilingual (AZERTY)	CM
+Cameroon Multilingual (Dvorak)	CM
+Cameroon Multilingual (QWERTY)	CM
+Canadian Multilingual	CA
+Canadian Multilingual (1st part)	CA
+Canadian Multilingual (2nd part)	CA
+Catalan (Spain, with middle-dot L)	ES
+Cherokee	US
+Chinese	CN
+Chuvash	RU
+Chuvash (Latin)	RU
+CloGaelach	IE
+Crimean Tatar (Turkish Alt-Q)	TR
+Crimean Tatar (Turkish F)	TR
+Crimean Tatar (Turkish Q)	TR
+Croatian	HR
+Croatian (US, with Croatian digraphs)	HR
+Croatian (US, with Croatian letters)	HR
+Croatian (with Croatian digraphs)	HR
+Croatian (with guillemets)	HR
+Czech	CZ
+Czech (QWERTY)	CZ
+Czech (QWERTY, extended backslash)	CZ
+Czech (UCW, only accented letters)	CZ
+Czech (US, Dvorak, UCW support)	CZ
+Czech (with <|> key)	CZ
+Danish	DK
+Danish (Dvorak)	DK
+Danish (Macintosh)	DK
+Danish (Macintosh, no dead keys)	DK
+Danish (Win keys)	DK
+Danish (no dead keys)	DK
+Dhivehi	MV
+Dutch	NL
+Dutch (Macintosh)	NL
+Dutch (standard)	NL
+Dutch (with Sun dead keys)	NL
+Dzongkha	BT
+English (Australian)	AU
+English (Cameroon)	CM
+English (Canada)	CA
+English (Colemak)	US
+English (Dvorak)	US
+English (Dvorak, alt. intl.)	US
+English (Dvorak, intl., with dead keys)	US
+English (Dvorak, left-handed)	US
+English (Dvorak, right-handed)	US
+English (Ghana)	GH
+English (Ghana, GILLBT)	GH
+English (Ghana, multilingual)	GH
+English (India, with rupee)	IN
+English (Macintosh)	US
+English (Mali, US, Macintosh)	ML
+English (Mali, US, intl.)	ML
+English (Nigeria)	NG
+English (South Africa)	ZA
+English (UK)	GB
+English (UK, Colemak)	GB
+English (UK, Dvorak)	GB
+English (UK, Dvorak, with UK punctuation)	GB
+English (UK, Macintosh)	GB
+English (UK, extended, with Win keys)	GB
+English (UK, intl., Macintosh)	GB
+English (UK, intl., with dead keys)	GB
+English (US)	US
+English (US, alt. intl.)	US
+English (US, euro on 5)	US
+English (US, intl., with dead keys)	US
+English (Workman)	US
+English (Workman, intl., with dead keys)	US
+English (classic Dvorak)	US
+English (intl., with AltGr dead keys)	US
+English (programmer Dvorak)	US
+English (the divide/multiply keys toggle the layout)	US
+Esperanto	EPO
+Esperanto (Brazil, Nativo)	BR
+Esperanto (Portugal, Nativo)	PT
+Esperanto (displaced semicolon and quote, obsolete)	EPO
+Estonian	EE
+Estonian (Dvorak)	EE
+Estonian (US, with Estonian letters)	EE
+Estonian (no dead keys)	EE
+Ewe	GH
+Faroese	FO
+Faroese (no dead keys)	FO
+Filipino	PH
+Filipino (Capewell-Dvorak, Baybayin)	PH
+Filipino (Capewell-Dvorak, Latin)	PH
+Filipino (Capewell-QWERF 2006, Baybayin)	PH
+Filipino (Capewell-QWERF 2006, Latin)	PH
+Filipino (Colemak, Baybayin)	PH
+Filipino (Colemak, Latin)	PH
+Filipino (Dvorak, Baybayin)	PH
+Filipino (Dvorak, Latin)	PH
+Filipino (QWERTY, Baybayin)	PH
+Finnish	FI
+Finnish (Macintosh)	FI
+Finnish (Winkeys)	FI
+Finnish (classic)	FI
+Finnish (classic, no dead keys)	FI
+French	FR
+French (AZERTY)	FR
+French (Bepo, ergonomic, Dvorak way)	FR
+French (Bepo, ergonomic, Dvorak way, Latin-9 only)	FR
+French (Breton)	FR
+French (Cameroon)	CM
+French (Canada)	CA
+French (Canada, Dvorak)	CA
+French (Canada, legacy)	CA
+French (Democratic Republic of the Congo)	CD
+French (Dvorak)	FR
+French (Guinea)	GN
+French (Macintosh)	FR
+French (Mali, alt.)	ML
+French (Morocco)	MA
+French (Switzerland)	CH
+French (Switzerland, Macintosh)	CH
+French (Switzerland, no dead keys)	CH
+French (Switzerland, with Sun dead keys)	CH
+French (Togo)	TG
+French (US, with French letters)	FR
+French (alt.)	FR
+French (alt., Latin-9 only)	FR
+French (alt., no dead keys)	FR
+French (alt., with Sun dead keys)	FR
+French (legacy, alt.)	FR
+French (legacy, alt., no dead keys)	FR
+French (legacy, alt., with Sun dead keys)	FR
+French (no dead keys)	FR
+French (with Sun dead keys)	FR
+Friulian (Italy)	IT
+Fula	GH
+Ga	GH
+Georgian	GE
+Georgian (France, AZERTY Tskapo)	FR
+Georgian (Italy)	IT
+Georgian (MESS)	GE
+Georgian (ergonomic)	GE
+German	DE
+German (Austria)	AT
+German (Austria, Macintosh)	AT
+German (Austria, no dead keys)	AT
+German (Austria, with Sun dead keys)	AT
+German (Dvorak)	DE
+German (Macintosh)	DE
+German (Macintosh, no dead keys)	DE
+German (Neo 2)	DE
+German (QWERTY)	DE
+German (Switzerland)	CH
+German (Switzerland, Macintosh)	CH
+German (Switzerland, legacy)	CH
+German (Switzerland, no dead keys)	CH
+German (Switzerland, with Sun dead keys)	CH
+German (T3)	DE
+German (dead acute)	DE
+German (dead grave acute)	DE
+German (dead tilde)	DE
+German (no dead keys)	DE
+German (with Sun dead keys)	DE
+Greek	GR
+Greek (extended)	GR
+Greek (no dead keys)	GR
+Greek (polytonic)	GR
+Greek (simple)	GR
+Gujarati	IN
+Hanyu Pinyin (altgr)	CN
+Hausa (Ghana)	GH
+Hausa (Nigeria)	NG
+Hebrew	IL
+Hebrew (Biblical, Tiro)	IL
+Hebrew (lyx)	IL
+Hebrew (phonetic)	IL
+Hindi (Bolnagri)	IN
+Hindi (KaGaPa phonetic)	IN
+Hindi (Wx)	IN
+Hungarian	HU
+Hungarian (101/QWERTY/comma/dead keys)	HU
+Hungarian (101/QWERTY/comma/no dead keys)	HU
+Hungarian (101/QWERTY/dot/dead keys)	HU
+Hungarian (101/QWERTY/dot/no dead keys)	HU
+Hungarian (101/QWERTZ/comma/dead keys)	HU
+Hungarian (101/QWERTZ/comma/no dead keys)	HU
+Hungarian (101/QWERTZ/dot/dead keys)	HU
+Hungarian (101/QWERTZ/dot/no dead keys)	HU
+Hungarian (102/QWERTY/comma/dead keys)	HU
+Hungarian (102/QWERTY/comma/no dead keys)	HU
+Hungarian (102/QWERTY/dot/dead keys)	HU
+Hungarian (102/QWERTY/dot/no dead keys)	HU
+Hungarian (102/QWERTZ/comma/dead keys)	HU
+Hungarian (102/QWERTZ/comma/no dead keys)	HU
+Hungarian (102/QWERTZ/dot/dead keys)	HU
+Hungarian (102/QWERTZ/dot/no dead keys)	HU
+Hungarian (QWERTY)	HU
+Hungarian (no dead keys)	HU
+Hungarian (standard)	HU
+Icelandic	IS
+Icelandic (Dvorak)	IS
+Icelandic (Macintosh)	IS
+Icelandic (Macintosh, legacy)	IS
+Icelandic (no dead keys)	IS
+Icelandic (with Sun dead keys)	IS
+Igbo	NG
+Indian	IN
+Indonesian (Jawi)	ID
+Inuktitut	CA
+Iraqi	IQ
+Irish	IE
+Irish (UnicodeExpert)	IE
+Italian	IT
+Italian (IBM 142)	IT
+Italian (Macintosh)	IT
+Italian (US, with Italian letters)	IT
+Italian (Winkeys)	IT
+Italian (intl., with dead keys)	IT
+Italian (no dead keys)	IT
+Japanese	JP
+Japanese (Dvorak)	JP
+Japanese (Kana 86)	JP
+Japanese (Kana)	JP
+Japanese (Macintosh)	JP
+Japanese (OADG 109A)	JP
+Kalmyk	RU
+Kannada	IN
+Kannada (KaGaPa phonetic)	IN
+Kashubian	PL
+Kazakh	KZ
+Kazakh (Latin)	KZ
+Kazakh (extended)	KZ
+Kazakh (with Russian)	KZ
+Khmer (Cambodia)	KH
+Kikuyu	KE
+Komi	RU
+Korean	KR
+Korean (101/104 key compatible)	KR
+Kurdish (Iran, Arabic-Latin)	IR
+Kurdish (Iran, F)	IR
+Kurdish (Iran, Latin Alt-Q)	IR
+Kurdish (Iran, Latin Q)	IR
+Kurdish (Iraq, Arabic-Latin)	IQ
+Kurdish (Iraq, F)	IQ
+Kurdish (Iraq, Latin Alt-Q)	IQ
+Kurdish (Iraq, Latin Q)	IQ
+Kurdish (Syria, F)	SY
+Kurdish (Syria, Latin Alt-Q)	SY
+Kurdish (Syria, Latin Q)	SY
+Kurdish (Turkey, F)	TR
+Kurdish (Turkey, Latin Alt-Q)	TR
+Kurdish (Turkey, Latin Q)	TR
+Kyrgyz	KG
+Kyrgyz (phonetic)	KG
+Lao	LA
+Lao (STEA proposed standard layout)	LA
+Latvian	LV
+Latvian (F)	LV
+Latvian (adapted)	LV
+Latvian (apostrophe)	LV
+Latvian (ergonomic, ŪGJRMV)	LV
+Latvian (modern)	LV
+Latvian (tilde)	LV
+Lithuanian	LT
+Lithuanian (IBM LST 1205-92)	LT
+Lithuanian (LEKP)	LT
+Lithuanian (LEKPa)	LT
+Lithuanian (US, with Lithuanian letters)	LT
+Lithuanian (standard)	LT
+Lower Sorbian	DE
+Lower Sorbian (QWERTZ)	DE
+Macedonian	MK
+Macedonian (no dead keys)	MK
+Malay (Jawi, Arabic Keyboard)	MY
+Malay (Jawi, phonetic)	MY
+Malayalam	IN
+Malayalam (Lalitha)	IN
+Malayalam (enhanced Inscript, with rupee)	IN
+Maltese	MT
+Maltese (UK layout with AltGr overrides)	MT
+Maltese (US layout with AltGr overrides)	MT
+Maltese (with US layout)	MT
+Manipuri (Eeyek)	IN
+Maori	MAO
+Marathi (KaGaPa phonetic)	IN
+Mari	RU
+Mmuock	CM
+Moldavian	MD
+Moldavian (Gagauz)	MD
+Mongolian	MN
+Montenegrin	ME
+Montenegrin (Cyrillic with guillemets)	ME
+Montenegrin (Cyrillic)	ME
+Montenegrin (Cyrillic, ZE and ZHE swapped)	ME
+Montenegrin (Latin with guillemets)	ME
+Montenegrin (Latin, QWERTY)	ME
+Montenegrin (Latin, Unicode)	ME
+Montenegrin (Latin, Unicode, QWERTY)	ME
+Nepali	NP
+Northern Saami (Finland)	FI
+Northern Saami (Norway)	NO
+Northern Saami (Norway, no dead keys)	NO
+Northern Saami (Sweden)	SE
+Norwegian	NO
+Norwegian (Colemak)	NO
+Norwegian (Dvorak)	NO
+Norwegian (Macintosh)	NO
+Norwegian (Macintosh, no dead keys)	NO
+Norwegian (Win keys)	NO
+Norwegian (no dead keys)	NO
+Occitan	FR
+Ogham	IE
+Ogham (IS434)	IE
+Ol Chiki	IN
+Oriya	IN
+Ossetian (Georgia)	GE
+Ossetian (Win keys)	RU
+Ossetian (legacy)	RU
+Pannonian Rusyn	RS
+Pashto	AF
+Pashto (Afghanistan, OLPC)	AF
+Persian	IR
+Persian (Afghanistan, Dari OLPC)	AF
+Persian (with Persian keypad)	IR
+Polish	PL
+Polish (British keyboard)	GB
+Polish (Dvorak)	PL
+Polish (Dvorak, with Polish quotes on key 1)	PL
+Polish (Dvorak, with Polish quotes on quotemark key)	PL
+Polish (QWERTZ)	PL
+Polish (legacy)	PL
+Polish (programmer Dvorak)	PL
+Portuguese	PT
+Portuguese (Brazil)	BR
+Portuguese (Brazil, Dvorak)	BR
+Portuguese (Brazil, IBM/Lenovo ThinkPad)	BR
+Portuguese (Brazil, Nativo for US keyboards)	BR
+Portuguese (Brazil, Nativo)	BR
+Portuguese (Brazil, no dead keys)	BR
+Portuguese (Macintosh)	PT
+Portuguese (Macintosh, no dead keys)	PT
+Portuguese (Macintosh, with Sun dead keys)	PT
+Portuguese (Nativo for US keyboards)	PT
+Portuguese (Nativo)	PT
+Portuguese (no dead keys)	PT
+Portuguese (with Sun dead keys)	PT
+Punjabi (Gurmukhi Jhelum)	IN
+Punjabi (Gurmukhi)	IN
+Romanian	RO
+Romanian (Germany)	DE
+Romanian (Germany, no dead keys)	DE
+Romanian (Win keys)	RO
+Romanian (cedilla)	RO
+Romanian (standard cedilla)	RO
+Romanian (standard)	RO
+Russian	RU
+Russian (Czech, phonetic)	CZ
+Russian (DOS)	RU
+Russian (Georgia)	GE
+Russian (Germany, phonetic)	DE
+Russian (Kazakhstan, with Kazakh)	KZ
+Russian (Macintosh)	RU
+Russian (Poland, phonetic Dvorak)	PL
+Russian (Sweden, phonetic)	SE
+Russian (Sweden, phonetic, no dead keys)	SE
+Russian (US, phonetic)	US
+Russian (Ukraine, standard RSTU)	UA
+Russian (legacy)	RU
+Russian (phonetic yazherty)	RU
+Russian (phonetic)	RU
+Russian (phonetic, AZERTY)	RU
+Russian (phonetic, Dvorak)	RU
+Russian (phonetic, French)	RU
+Russian (phonetic, with Win keys)	RU
+Russian (typewriter)	RU
+Russian (typewriter, legacy)	RU
+Saisiyat (Taiwan)	TW
+Sanskrit (KaGaPa phonetic)	IN
+Serbian	RS
+Serbian (Cyrillic with guillemets)	RS
+Serbian (Cyrillic, ZE and ZHE swapped)	RS
+Serbian (Latin with guillemets)	RS
+Serbian (Latin)	RS
+Serbian (Latin, QWERTY)	RS
+Serbian (Latin, Unicode)	RS
+Serbian (Latin, Unicode, QWERTY)	RS
+Serbian (Russia)	RU
+Serbo-Croatian (US)	US
+Sicilian	IT
+Silesian	PL
+Sindhi	PK
+Sinhala (US, with Sinhala letters)	LK
+Sinhala (phonetic)	LK
+Slovak	SK
+Slovak (QWERTY)	SK
+Slovak (QWERTY, extended backslash)	SK
+Slovak (extended backslash)	SK
+Slovenian	SI
+Slovenian (US, with Slovenian letters)	SI
+Slovenian (with guillemets)	SI
+Spanish	ES
+Spanish (Dvorak)	ES
+Spanish (Latin American)	LATAM
+Spanish (Latin American, Colemak for gaming)	LATAM
+Spanish (Latin American, Colemak)	LATAM
+Spanish (Latin American, Dvorak)	LATAM
+Spanish (Latin American, dead tilde)	LATAM
+Spanish (Latin American, no dead keys)	LATAM
+Spanish (Latin American, with Sun dead keys)	LATAM
+Spanish (Macintosh)	ES
+Spanish (Win keys)	ES
+Spanish (dead tilde)	ES
+Spanish (no dead keys)	ES
+Spanish (with Sun dead keys)	ES
+Swahili (Kenya)	KE
+Swahili (Tanzania)	TZ
+Swedish	SE
+Swedish (Dvorak)	SE
+Swedish (Macintosh)	SE
+Swedish (Svdvorak)	SE
+Swedish (US, with Swedish letters)	SE
+Swedish (based on US Intl. Dvorak)	SE
+Swedish (no dead keys)	SE
+Swedish Sign Language	SE
+Syriac	SY
+Syriac (phonetic)	SY
+Taiwanese	TW
+Taiwanese (indigenous)	TW
+Tajik	TJ
+Tajik (legacy)	TJ
+Tamil (Inscript)	IN
+Tamil (Sri Lanka, TamilNet '99)	LK
+Tamil (Sri Lanka, TamilNet '99, TAB encoding)	LK
+Tamil (TamilNet '99 with Tamil numerals)	IN
+Tamil (TamilNet '99)	IN
+Tamil (TamilNet '99, TAB encoding)	IN
+Tamil (TamilNet '99, TSCII encoding)	IN
+Tatar	RU
+Telugu	IN
+Telugu (KaGaPa phonetic)	IN
+Telugu (Sarala)	IN
+Thai	TH
+Thai (Pattachote)	TH
+Thai (TIS-820.2538)	TH
+Tibetan	CN
+Tibetan (with ASCII numerals)	CN
+Tswana	BW
+Turkish	TR
+Turkish (Alt-Q)	TR
+Turkish (F)	TR
+Turkish (Germany)	DE
+Turkish (intl., with dead keys)	TR
+Turkish (with Sun dead keys)	TR
+Turkmen	TM
+Turkmen (Alt-Q)	TM
+Udmurt	RU
+Ukrainian	UA
+Ukrainian (Win keys)	UA
+Ukrainian (homophonic)	UA
+Ukrainian (legacy)	UA
+Ukrainian (phonetic)	UA
+Ukrainian (standard RSTU)	UA
+Ukrainian (typewriter)	UA
+Urdu (Pakistan)	PK
+Urdu (Pakistan, CRULP)	PK
+Urdu (Pakistan, NLA)	PK
+Urdu (Win keys)	IN
+Urdu (alt. phonetic)	IN
+Urdu (phonetic)	IN
+Uyghur	CN
+Uzbek	UZ
+Uzbek (Afghanistan)	AF
+Uzbek (Afghanistan, OLPC)	AF
+Uzbek (Latin)	UZ
+Vietnamese	VN
+Vietnamese (French, with Vietnamese letters)	VN
+Vietnamese (US, with Vietnamese letters)	VN
+Wolof	SN
+Yakut	RU
+Yoruba	NG
