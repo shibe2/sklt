@@ -37,6 +37,8 @@ That is, how the time "Mon Jan 2 15:04:05 -0700 MST 2006" should be formatted.
 The default format when updating every second is `2006-01-02 15:04:05` (year-month-day hour:minute:second).
 For longer update intervals, smaller units are excluded.
 
+An example of a different time format: `Mon, Jan 2 3:04 PM` (weekday, month day hour:minute ampm).
+
 To use a format that contains spaces in the Sway configuration file, either enclose it in escaped quotes (`\"` or `\'`) or escape the spaces (add a backslash before each space):
 
     status_command sklt -f \"2006-01-02 15:04\"
