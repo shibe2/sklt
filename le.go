@@ -1,6 +1,6 @@
 // TODO: Add little endian architectures to the constraint below.
 
-// +build amd64
+// +build 386 amd64 arm arm64
 
 package main
 
